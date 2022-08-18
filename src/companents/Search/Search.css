@@ -1,0 +1,35 @@
+.input {
+  width: 480px;
+  height: 56px;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  border: none;
+  padding-left: 55px;
+  padding-right: 30px;
+  outline: none;
+}
+
+.search-img {
+  position: absolute;
+  left: 18px;
+  top: 20px;
+}
+
+.select {
+  width: 256px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.search-box {
+  padding-top: 90px !important;
+}
+
+.qoraa {
+  background: #202c36;
+}
