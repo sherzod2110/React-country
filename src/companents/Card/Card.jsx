@@ -8,7 +8,7 @@ function Card({ data, dark }) {
     <div className={`${dark ? "" : "wwww"}`}>
       <div className="container py-4">
         <ul className="list d-flex align-items-center flex-wrap justify-content-around">
-          {data.map((el) => {
+          {data?.map((el) => {
             return (
               <li
                 className={`${

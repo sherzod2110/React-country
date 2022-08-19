@@ -23,14 +23,12 @@ const SingleCountry = ({ dark }) => {
   return (
     <div
       className={`${
-        dark
-          ? "list-unstyled  m-0 p-0"
-          : "list-unstyled m-0 p-0 dsfgref qoraa "
+        dark ? "list-unstyled  m-0 p-0" : "list-unstyled m-0 p-0 dsfgref qoraa "
       }`}
     >
       <div className="container ">
         <div className="inner_card">
-          {data.map((item) => {
+          {data?.map((item) => {
             return (
               <li key={item.name} className=" w-100 ms-5 pt-4">
                 <div>
